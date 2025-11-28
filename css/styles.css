@@ -244,6 +244,14 @@ nav.main-navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
     height: 50px;
   }
 }
+nav.main-navbar .navbar-collapse .navbar-nav .nav-item .nav-link.btn-contact{
+  display: none;
+}
+@media (max-width:991.98px) {
+  nav.main-navbar .navbar-collapse .navbar-nav .nav-item .nav-link.btn-contact{
+    display: flex;
+  }
+}
 nav.main-navbar .navbar-nav.navbar-nav-right {
   display: flex;
   flex-wrap: nowrap;
@@ -2249,9 +2257,11 @@ input:-webkit-autofill:active {
   padding-left: 0;
 }
 .privacy-terms-block ul li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  color: #333;
+  color: #666;
   margin: 0 0 5px;
   line-height: 1.4;
 }
+
+

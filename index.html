@@ -6,6 +6,10 @@
     <title>Cylinder Cloud</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -54,8 +58,20 @@
             <li class="nav-item">
               <a class="nav-link" href="#benefits">Benefits</a>
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn-contact"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+                >Contact Us</a
+              >
+            </li>
           </ul>
-          <a href="#!" class="btn btn-secondary d-lg default-shadow"
+          <a
+            href="#!"
+            class="btn btn-secondary d-lg default-shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#contactModal"
             >Contact Us</a
           >
         </div>
@@ -105,46 +121,8 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="carousel-item">
-      Banner2
-    </div>
-    <div class="carousel-item">
-      Banner3
-    </div> -->
-          </div>
-          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button> -->
-        </div>
-        <!-- ---------- carousel end ------------ -->
-
-        <!-- --------- company logos start ------------- -->
-        <div class="marquee-container">
-          <div class="marquee-content">
-            <span
-              ><img src="images/Company-logo-1.png" alt="Company logo"
-            /></span>
-            <span
-              ><img src="images/Company-logo-2.png" alt="Company logo"
-            /></span>
-            <span
-              ><img src="images/Company-logo-3.png" alt="Company logo"
-            /></span>
-            <span
-              ><img src="images/Company-logo-4.png" alt="Company logo"
-            /></span>
-            <span
-              ><img src="images/Company-logo-5.png" alt="Company logo"
-            /></span>
           </div>
         </div>
-
-        <!-- --------- company logos end ------------- -->
       </div>
 
       <!-- --------- Key Features ------------- -->
@@ -670,7 +648,8 @@
             <div class="feedback-block">
               <h1 data-aos="fade-up">Check what our clients are saying</h1>
               <p data-aos="fade-up">
-                Lorem ipsum cum soluta nobis est eligendi
+                Distributors and gas suppliers across the globe trust
+                CylinderCloud to manage their cylinder stock and deliveries.
               </p>
               <div class="testimonial-block" data-aos="fade-up">
                 <section id="testim" class="testim">
@@ -695,141 +674,111 @@
                         <div class="testimonial-items active">
                           <div class="img">
                             <img
-                              src="images/testimonial-img.png"
-                              alt="Person Name"
+                              src="images\Rajesh_Testimonial_Image.png"
+                              alt="Rajesh Mehta"
                             />
                           </div>
-                          <h5>Cristofer Vaccaro</h5>
-                          <h6>CEO PT Aven</h6>
+                          <h5>Rajesh Mehta</h5>
                           <img
                             class="rating"
                             src="images/rating-5star.svg"
-                            alt="Rating"
+                            alt="5 Star Rating"
                           />
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
+                            With CylinderCloud, we finally have real-time
+                            visibility into every cylinder moving in and out of
+                            our depot. Stock mismatches have dropped
+                            drastically, and our team closes daily
+                            reconciliations in minutes instead of hours.
                           </p>
-                          <img
-                            src="images/Aven.png"
-                            class="client-logo"
-                            alt="Client logo"
-                          />
                         </div>
 
                         <div class="testimonial-items">
                           <div class="img">
                             <img
-                              src="images/testimonial-img2.png"
-                              alt="Person Name"
+                              src="images\Michel_Testimonial_Image.png"
+                              alt="Michael Turner"
                             />
                           </div>
-                          <h5>Lorem Ipsum</h5>
-                          <h6>simply dummy text</h6>
-                          <img
-                            class="rating"
-                            src="images/rating-4star.svg"
-                            alt="Rating"
-                          />
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
-                          </p>
-                          <img
-                            src="images/Aven.png"
-                            class="client-logo"
-                            alt="Client logo"
-                          />
-                        </div>
-
-                        <div class="testimonial-items">
-                          <div class="img">
-                            <img
-                              src="images/testimonial-img.png"
-                              alt="Person Name"
-                            />
-                          </div>
-                          <h5>Cristofer Vaccaro</h5>
-                          <h6>CEO PT Aven</h6>
+                          <h5>Michael Turner</h5>
                           <img
                             class="rating"
                             src="images/rating-5star.svg"
-                            alt="Rating"
+                            alt="5 Star Rating"
                           />
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
+                            Managing multiple depots and delivery zones used to
+                            be a challenge. With CylinderCloud, our inventory,
+                            orders, and deliveries are unified in one dashboard,
+                            helping us cut operational costs and improve service
+                            levels.
                           </p>
-                          <img
-                            src="images/Aven.png"
-                            class="client-logo"
-                            alt="Client logo"
-                          />
                         </div>
 
                         <div class="testimonial-items">
                           <div class="img">
                             <img
-                              src="images/testimonial-img2.png"
-                              alt="Person Name"
+                              src="images\Ananya_Testimonial_Image.png"
+                              alt="Ananya Iyer"
                             />
                           </div>
-                          <h5>Lorem Ipsum</h5>
-                          <h6>simply dummy text</h6>
+                          <h5>Ananya Iyer</h5>
+                          <img
+                            class="rating"
+                            src="images/rating-5star.svg"
+                            alt="5 Star Rating"
+                          />
+                          <p>
+                            CylinderCloud has streamlined our order creation and
+                            delivery planning for both domestic and commercial
+                            customers. Our drivers follow optimized routes, and
+                            customers now receive their cylinders on time with
+                            clear digital invoices.
+                          </p>
+                        </div>
+
+                        <div class="testimonial-items">
+                          <div class="img">
+                            <img
+                              src="images\Vikram_Testimonial_Image.png"
+                              alt="Vikram Singh"
+                            />
+                          </div>
+                          <h5>Vikram Singh</h5>
                           <img
                             class="rating"
                             src="images/rating-4star.svg"
-                            alt="Rating"
+                            alt="4 Star Rating"
                           />
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
+                            For our industrial clients, traceability and
+                            compliance are critical. CylinderCloud gives us a
+                            single platform to track cylinder cycles, deposits,
+                            and payments while providing management with
+                            accurate KPIs for decision-making.
                           </p>
-                          <img
-                            src="images/Aven.png"
-                            class="client-logo"
-                            alt="Client logo"
-                          />
                         </div>
 
                         <div class="testimonial-items">
                           <div class="img">
                             <img
-                              src="images/testimonial-img.png"
-                              alt="Person Name"
+                              src="images\Jarnes_Testimonial_Image.png"
+                              alt="James Thornton"
                             />
                           </div>
-                          <h5>Cristofer Vaccaro</h5>
-                          <h6>CEO PT Aven</h6>
+                          <h5>James Thornton</h5>
                           <img
                             class="rating"
-                            src="images/rating-3star.svg"
-                            alt="Rating"
+                            src="images/rating-4star.svg"
+                            alt="4 Star Rating"
                           />
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat
+                            CylinderCloud has transformed the way we handle
+                            cylinder tracking across our distribution hubs. With
+                            detailed inventory insights and real-time delivery
+                            updates, our team has improved efficiency and
+                            reduced customer complaints significantly.
                           </p>
-                          <img
-                            src="images/Aven.png"
-                            class="client-logo"
-                            alt="Client logo"
-                          />
                         </div>
                       </div>
                     </div>
@@ -852,16 +801,19 @@
               <div class="download-app-info">
                 <h1>Download Our App</h1>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Tellus eget pharetra quam risus eu sed
-                  purus gravida faucibus. Ultrices suscipit. Egestas enim dolor
-                  quisque. Sed lectus sed ut viverra nulla mi sollicitudin.
+                  Stay connected with CylinderCloud on the go! Download our app
+                  to manage your gas cylinder distribution more effectively and
+                  efficiently. Track deliveries, monitor inventory, and get
+                  real-time updates, all from the convenience of your mobile
+                  device.
                 </p>
                 <div class="btn-group">
-                  <a href="#!"
+                  <a
+                    href="https://apps.apple.com/us/app/cylindercloud/id6741411456"
                     ><img src="images/app-store.svg" alt="App Store"
                   /></a>
-                  <a href="#!"
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.cylindercloud.driver"
                     ><img src="images/google-play.svg" alt="Google Play"
                   /></a>
                 </div>
@@ -884,28 +836,134 @@
                 >
               </li>
               <li>
-                <a href="EULA.html" class="footer-link"
-                  >Terms of use(EULA)</a
-                >
+                <a href="EULA.html" class="footer-link">Terms of Use(EULA)</a>
               </li>
             </ul>
           </div>
           <div class="footer-container-bt">
             <p>Copyright © 2025 CylinderCloud. All Rights Reserved.</p>
-            <div class="social-links-block">
-              <a href="#!" class="social-link"
-                ><img src="images/FB.svg" alt="Facebook"
-              /></a>
-              <a href="#!" class="social-link"
-                ><img src="images/instagram.svg" alt="Instagram"
-              /></a>
-              <a href="#!" class="social-link"
-                ><img src="images/twitter.svg" alt="Twitter"
-              /></a>
-              <a href="#!" class="social-link"
-                ><img src="images/linkedin.svg" alt="Linkedin"
-              /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+      style="margin-top: 35px"
+    >
+      <div class="modal-dialog">
+        <div
+          class="modal-content"
+          style="
+            background-color: #f2eced;
+            color: rgb(20, 18, 18);
+            border-radius: 10px;
+          "
+        >
+          <div
+            class="modal-header"
+            style="border-bottom: none; padding-bottom: 0"
+          >
+            <h5 class="modal-title" id="contactModalLabel">Contact With Us</h5>
+          </div>
+          <hr class="mx-1" />
+          <div
+            class="modal-body"
+            style="color: rgb(20, 18, 18); font-size: 16px"
+          >
+            <div class="contact-info">
+              <div
+                class="contact-item"
+                style="margin-top: 0; margin-bottom: 10px"
+              >
+                <i
+                  class="fa fa-phone-square"
+                  style="
+                    color: rgb(20, 18, 18);
+                    font-size: 20px;
+                    margin-right: 10px;
+                  "
+                >
+                </i>
+                <p><strong>US Toll Free:</strong> 1-877-RISHABH</p>
+              </div>
+
+              <div class="contact-item" style="margin-bottom: 2px">
+                <i
+                  style="
+                    color: rgb(20, 18, 18);
+                    font-size: 20px;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <p><strong>USA:</strong> +1-201-484-7302</p>
+              </div>
+              <div class="contact-item" style="margin-bottom: 2px">
+                <i
+                  style="
+                    color: rgb(20, 18, 18);
+                    font-size: 20px;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <p><strong>INDIA:</strong> +91 8511122697</p>
+              </div>
+              <div class="contact-item" style="margin-bottom: 2px">
+                <i
+                  style="
+                    color: rgb(20, 18, 18);
+                    font-size: 20px;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <p><strong>UK:</strong> +44 2070318422</p>
+              </div>
+              <div class="contact-item" style="margin-bottom: 2px">
+                <i
+                  style="
+                    color: rgb(20, 18, 18);
+                    font-size: 20px;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <p><strong>AU:</strong> +61 2 8311 1544</p>
+              </div>
+              <hr />
+              <div class="contact-item">
+                <i
+                  class="fa fa-envelope"
+                  style="
+                    color: rgb(20, 18, 18);
+                    font-size: 20px;
+                    margin-right: 10px;
+                  "
+                ></i>
+                <p>
+                  <strong>Email us:</strong>
+                  <a
+                    href="mailto:sales@rishabhsoft.com"
+                    style="color: rgb(20, 18, 18); text-decoration: none"
+                  >
+                    sales@rishabhsoft.com
+                  </a>
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer" style="border-top: none">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+              style="background-color: #f54b4b; border: none; width: 125px"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
